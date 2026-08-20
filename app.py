@@ -6,7 +6,7 @@ from lab_challenges import LAB_CHALLENGES, GATE_MENU, build_circuit, check_solut
 
 st.set_page_config(
     page_title="Quantum Cyber Range",
-    page_icon="assets/favicon.svg",
+    page_icon="assets/favicon.png",
     layout="wide",
 )
 

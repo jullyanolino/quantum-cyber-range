@@ -1,2 +1,6 @@
-streamlit>=1.35
-qiskit>=1.0
+# Pin exact versions tested together locally. Avoid loose ">=" ranges for
+# qiskit: its compiled Rust dependency (rustworkx) only ships prebuilt wheels
+# for specific Python versions, and a mismatch causes a segfault on import
+# rather than a clean pip error. See README.md "Troubleshooting" section.
+streamlit==1.62.0
+qiskit==2.5.2
