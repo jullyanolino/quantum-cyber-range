@@ -5,10 +5,6 @@ challenges across four threat tracks, plus **Quantum Lab**: three exercises wher
 participants build real quantum circuits and get graded by an actual
 [Qiskit](https://www.ibm.com/quantum/qiskit) simulation — not a hardcoded answer key.
 
-Originally shipped as a static HTML/CSS/JS app for GitHub Pages; this branch ports
-the same content to Streamlit specifically to add Qiskit-backed interactive
-challenges, which a static site cannot run.
-
 ---
 
 ## Contents
