@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-labelledby="t">
+<title>Legitimate and modified quantum circuits</title>
+<rect width="760" height="330" rx="18" fill="#07101b"/>
+<g font-family="system-ui, sans-serif" fill="#edf4ff">
+<text x="34" y="38" font-size="22" font-weight="700">Circuit integrity diff</text>
+<text x="34" y="76" font-size="15" fill="#9fb0c7">LEGITIMATE</text>
+<text x="34" y="220" font-size="15" fill="#ff7187">MODIFIED — suspicious ancilla path</text>
+</g>
+<g stroke="#9fb0c7" stroke-width="3" fill="none">
+<line x1="110" y1="120" x2="690" y2="120"/><line x1="110" y1="160" x2="690" y2="160"/>
+<line x1="110" y1="260" x2="690" y2="260"/><line x1="110" y1="300" x2="690" y2="300"/>
+<line x1="290" y1="120" x2="290" y2="160"/>
+<line x1="290" y1="260" x2="290" y2="300"/>
+</g>
+<g fill="#65d7ff" stroke="#65d7ff">
+<circle cx="290" cy="120" r="8"/><path d="M280 150h20M290 140v40"/>
+</g>
+<g fill="#65d7ff" stroke="#65d7ff">
+<circle cx="290" cy="260" r="8"/><path d="M280 290h20M290 280v40"/>
+</g>
+<g stroke="#ff7187" stroke-width="4" fill="none">
+<line x1="500" y1="260" x2="500" y2="300"/>
+</g>
+<g fill="#ff7187">
+<circle cx="500" cy="260" r="10"/>
+<path d="M486 286h28l-14 20z"/>
+</g>
+<g fill="#edf4ff" font-family="ui-monospace,monospace" font-size="14">
+<text x="88" y="126">q0</text><text x="88" y="166">q1</text>
+<text x="88" y="266">q1</text><text x="88" y="306">q2</text>
+</g>
+<g fill="#ff7187" font-family="system-ui,sans-serif" font-size="14">
+<text x="520" y="282">unexpected controlled path</text>
+</g>
+</svg>
