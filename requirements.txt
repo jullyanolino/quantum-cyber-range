@@ -4,4 +4,4 @@
 # rather than a clean pip error. See README.md "Troubleshooting" section.
 streamlit==1.62.0
 qiskit==2.4.2
-#qiskit>=2.0
+#qiskit>=2.5.2 --no-binary=qiskit
