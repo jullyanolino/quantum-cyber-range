@@ -1,4 +1,4 @@
-# Quantum Cyber Range — Streamlit Edition
+# Quantum Cyber Range
 
 A hands-on Quantum Cybersecurity micro-CTF (Capture The Flag). Ten multiple-choice
 challenges across four threat tracks, plus **Quantum Lab**: three exercises where
